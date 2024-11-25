@@ -1,0 +1,25 @@
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - pytorch=1.5
+  - joblib
+  - pip
+  - pip:
+    - pynvml
+    - causal-learn
+    - pymongo
+    - pyyaml
+    - openpyxl
+    - bson
+    - torchdiffeq
+    - xlrd==1.2.0
+  - tqdm
+
