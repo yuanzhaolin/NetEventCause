@@ -8,7 +8,6 @@ This project is the source code of the paper _NetEventCause: Event-driven Root C
 ```shell
 conda env create -n <myenv> -f config/environment.yml
 conda activate <myenv>
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 ```
 
 ## Starting the training and evaluation
@@ -16,3 +15,5 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 ```shell
 ./scripts/toy_all.sh
 ```
+
+> Due to compliance with Huawei Software Technologies Co., Ltd.'s Technology Privacy Agreement, some source code has been substituted with alternatives.
